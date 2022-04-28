@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-data-jpa
+  datasource:
+    password: password
+    username: matol
+    url: jdbc:postgresql://localhost:5432/jpadatabase
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
